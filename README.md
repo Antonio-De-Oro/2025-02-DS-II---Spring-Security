@@ -26,7 +26,7 @@ La aplicación utiliza el puerto **9000**, por lo que todas las URLs comienzan c
       "metodoDePago": "Tarjeta de crédito"
     }
     ```
-  - **Headers:** `Content-Type: application/json` (No es necesario especificar el Headers, basta con cargar el json en el body)
+  - `Content-Type: application/json` (No es necesario especificar el contenido en el Headers, basta con cargar el json en el body)
 
 ### 2. Iniciar sesión (login)
 - **Endpoint principal:**
@@ -38,7 +38,7 @@ La aplicación utiliza el puerto **9000**, por lo que todas las URLs comienzan c
       "contrasena": "Qwerty123"
     }
     ```
-  - **Headers:** `Content-Type: application/json`
+  - `Content-Type: application/json`
   - **Respuesta:** Devuelve un token JWT para usar en endpoints protegidos.
 
 ### 3. Ver productos
@@ -68,7 +68,7 @@ La aplicación utiliza el puerto **9000**, por lo que todas las URLs comienzan c
     }
     ```
     (Solo se envía la lista de IDs de productos que quieres agregar al carrito)
-  - **Headers:**
+  - 
     - `Content-Type: application/json`
     - `Authorization: Bearer <tu_token_jwt>`
 
@@ -76,7 +76,7 @@ La aplicación utiliza el puerto **9000**, por lo que todas las URLs comienzan c
 - **Endpoint principal:**
   - **GET** `http://localhost:9000/api/cart/{id}/products`
     (Reemplazar `{id}` con el ID del carrito)
-  - **Headers:** `Authorization: Bearer <tu_token_jwt>`
+  - `Authorization: Bearer <tu_token_jwt>`
 
 
 
@@ -89,4 +89,4 @@ La aplicación utiliza el puerto **9000**, por lo que todas las URLs comienzan c
 
 **José Luis Garay De La Vega**,
 
-**Javier Eduardo Cerpa Guerrero**-
+**Javier Eduardo Cerpa Guerrero**.
