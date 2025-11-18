@@ -81,8 +81,12 @@ La aplicación utiliza el puerto **9000**, por lo que todas las URLs comienzan c
 
 
 ### Autores:
-**Antonio Luis De Oro Vergara**
-**Yojhan José Vides Ortiz**
-**Giovanny Daniel Gonzales Racero**
-**José Luis Garay De La Vega**
-**Javier Eduardo Cerpa Guerrero**
+**Antonio Luis De Oro Vergara**,
+
+**Yojhan José Vides Ortiz**,
+
+**Giovanny Daniel Gonzales Racero**,
+
+**José Luis Garay De La Vega**,
+
+**Javier Eduardo Cerpa Guerrero**-
